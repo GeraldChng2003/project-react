@@ -1,0 +1,115 @@
+
+form {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+div {
+    margin: 2px;
+    padding: 5px;
+}
+
+.loginContainer {
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    min-height: 100vh;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/public/background.jpg");
+
+
+}
+.formTitle {
+    font-weight: bold;
+}
+.formRow{
+    background-color: white;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 0 4px 12px rgba(32, 19, 19, 0.05);
+    margin: 12px 0;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+}
+
+.formWrapper {
+    display: flex;
+    align-items: center;
+    background-color: #f7f9fc;
+    min-height: fit-content;
+    height: 30px;
+    border-radius: 12px;
+    padding: 8px 12px;
+  }
+
+.input {
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+    font-weight: normal;
+
+}
+#message {
+    background: #f1f1f1;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+  }
+  
+  .valid {
+    color: green;
+  }
+  
+  .invalid {
+    color: red;
+  }
+
+button {
+    display: flex;
+    justify-content: center;   
+    align-items: center;      
+    width: 100%;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.specialbtn {
+    display: flex;
+    justify-content: center;   
+    align-items: center;    
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+
+}
+
+.specialbtn:hover {
+    text-decoration: underline;
+    background-color: white;
+
+}
